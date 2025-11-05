@@ -24,7 +24,7 @@ mensaje();
 console.log('\n');
 // Funcion que muestra estado.
 
-function mostrarestado(nombre) {
+function mostrarEstado(nombre) {
 
 console.log('\n'); // Agrega espacios.
 // inicio del programa.
@@ -43,10 +43,13 @@ console.log(chalk.green('😁 Proceso finalizado correctamente 😎'));
 
 }
 
-
-
+function simularError(){
+    console.warn(chalk.yellow('⚠️ Advertencia: Algo no va bien...'));
+}
 
 // Prueba de función
 saludar("Equipo JS");
 mostrarEstado();
+simularError();
+
 
