@@ -45,7 +45,10 @@ console.log(chalk.green('😁 Proceso finalizado correctamente 😎'));
 
 function simularError(){
     console.warn(chalk.yellow('⚠️ Advertencia: Algo no va bien...'));
+
+    console.error(chalk.red('Error desconocido'));
 }
+
 
 // Prueba de función
 saludar("Equipo JS");
