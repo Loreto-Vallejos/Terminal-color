@@ -10,9 +10,15 @@ console.log(chalk.magenta('💡 Recuerda: la práctica hace al programador.'));
 
 // BONUS: función básica
 function saludar(nombre) {
-  console.log(chalk.cyan('Hola ${nombre}, ¡bienvenido al mundo JavaScript! 🌍'));
+  console.log(chalk.cyan(`Hola ${nombre}, ¡bienvenido al mundo JavaScript! 🌍`));
+}
+
+//funcion que muestra mensaje
+function mensaje(){
+    console.log(chalk.yellow('Hola, estoy aprendiendo'));
 }
 
 // Prueba de función
-saludar("Equipo JS");
+saludar('Equipo capa8');
+mensaje();
 
